@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Clinica Maria Reina </title>
+    <!-- HTML5 Shim and Respond.js IE10 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 10]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+      <!-- Meta -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="description" content="Mega Able Bootstrap admin template made using Bootstrap 4 and it has huge amount of ready made feature, UI components, pages which completely fulfills any dashboard needs." />
+      <meta name="keywords" content="bootstrap, bootstrap admin template, admin theme, admin dashboard, dashboard template, admin template, responsive" />
+      <meta name="author" content="codedthemes" />
+      <!-- Favicon icon -->
+      <link rel="icon" href="assets/images/LOGO.png" type="image/x-icon">
+    <!-- Google font-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet">
+    <!-- waves.css -->
+    <link rel="stylesheet" href="assets/pages/waves/css/waves.min.css" type="text/css" media="all">
+      <!-- Required Fremwork -->
+      <link rel="stylesheet" type="text/css" href="assets/css/bootstrap/css/bootstrap.min.css">
+      <!-- waves.css -->
+      <link rel="stylesheet" href="assets/pages/waves/css/waves.min.css" type="text/css" media="all">
+      <!-- themify icon -->
+      <link rel="stylesheet" type="text/css" href="assets/icon/themify-icons/themify-icons.css">
+      <!-- Font Awesome -->
+      <link rel="stylesheet" type="text/css" href="assets/icon/font-awesome/css/font-awesome.min.css">
+      <!-- scrollbar.css -->
+      <link rel="stylesheet" type="text/css" href="assets/css/jquery.mCustomScrollbar.css">
+        <!-- am chart export.css -->
+        <link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css" type="text/css" media="all" />
+      <!-- Style.css -->
+      <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  </head>
+
+  <body>
+  <!-- Pre-loader start -->
+  <div class="theme-loader">
+      <div class="loader-track">
+          <div class="preloader-wrapper">
+              <div class="spinner-layer spinner-blue">
+                  <div class="circle-clipper left">
+                      <div class="circle"></div>
+                  </div>
+                  <div class="gap-patch">
+                      <div class="circle"></div>
+                  </div>
+                  <div class="circle-clipper right">
+                      <div class="circle"></div>
+                  </div>
+              </div>
+              <div class="spinner-layer spinner-red">
+                  <div class="circle-clipper left">
+                      <div class="circle"></div>
+                  </div>
+                  <div class="gap-patch">
+                      <div class="circle"></div>
+                  </div>
+                  <div class="circle-clipper right">
+                      <div class="circle"></div>
+                  </div>
+              </div>
+            
+              <div class="spinner-layer spinner-yellow">
+                  <div class="circle-clipper left">
+                      <div class="circle"></div>
+                  </div>
+                  <div class="gap-patch">
+                      <div class="circle"></div>
+                  </div>
+                  <div class="circle-clipper right">
+                      <div class="circle"></div>
+                  </div>
+              </div>
+            
+              <div class="spinner-layer spinner-green">
+                  <div class="circle-clipper left">
+                      <div class="circle"></div>
+                  </div>
+                  <div class="gap-patch">
+                      <div class="circle"></div>
+                  </div>
+                  <div class="circle-clipper right">
+                      <div class="circle"></div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- Pre-loader end -->
+  <div id="pcoded" class="pcoded">
+      <div class="pcoded-overlay-box"></div>
+      <div class="pcoded-container navbar-wrapper">
+          <nav class="navbar header-navbar pcoded-header">
+              <div class="navbar-wrapper"> 
+                  <div class="navbar-logo">
+                      <a class="mobile-menu waves-effect waves-light" id="mobile-collapse" href="#!">
+                          <i class="ti-menu"></i>
+                      </a>
+                      <div class="mobile-search waves-effect waves-light">
+                          <div class="header-search">
+                              <div class="main-search morphsearch-search">
+                                  <div class="input-group">
+                                      <span class="input-group-addon search-close"><i class="ti-close"></i></span>
+                                      <input type="text" class="form-control" placeholder="Enter Keyword">
+                                      <span class="input-group-addon search-btn"><i class="ti-search"></i></span>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <a href="index.html">
+                          <img class="img-fluid" src="assets/images/LOGO.png"  width="60%" alt="Theme-Logo" />
+                      </a>
+                      <a class="mobile-options waves-effect waves-light">
+                          <i class="ti-more"></i>
+                      </a>
+                  </div>
+                
+                  <div class="navbar-container container-fluid">
+                      <ul class="nav-left">
+                          <li>
+                              <div class="sidebar_toggle"><a href="javascript:void(0)"><i class="ti-menu"></i></a></div>
+                          </li>
+                          <li class="header-search">
+                              <div class="main-search morphsearch-search">
+                                  <div class="input-group">
+                                      <span class="input-group-addon search-close"><i class="ti-close"></i></span>
+                                      <input type="text" class="form-control">
+                                      <span class="input-group-addon search-btn"><i class="ti-search"></i></span>
+                                  </div>
+                              </div>
+                          </li>
+                          <li>
+                              <a href="#!" onclick="javascript:toggleFullScreen()" class="waves-effect waves-light">
+                                  <i class="ti-fullscreen"></i>
+                              </a>
+                          </li>
+                      </ul>
+                      <ul class="nav-right">
+                          <li class="header-notification">
+                              <a href="#!" class="waves-effect waves-light">
+                                  <i class="ti-bell"></i>
+                                  <span class="badge bg-c-red"></span>
+                              </a>
+                              <ul class="show-notification">
+                                  <li>
+                                      <h6>Notifications</h6>
+                                      <label class="label label-danger">New</label>
+                                  </li>
+                                  <li class="waves-effect waves-light">
+                                      <div class="media">
+                                          <img class="d-flex align-self-center img-radius" src="assets/images/avatar-2.jpg" alt="Generic placeholder image">
+                                          <div class="media-body">
+                                              <h5 class="notification-user">Albeiro Padilla</h5>
+                                              <p class="notification-msg">Necesito que me llames urgente</p>
+                                              <span class="notification-time">5 minutos aproximadamente</span>
+                                          </div>
+                                      </div>
+                                  </li>
+                                  <li class="waves-effect waves-light">
+                                      <div class="media">
+                                          <img class="d-flex align-self-center img-radius" src="assets/images/avatar-4.jpg" alt="Generic placeholder image">
+                                          <div class="media-body">
+                                              <h5 class="notification-user">Carlos Romero</h5>
+                                              <p class="notification-msg">Diego me tiene miedo bro</p>
+                                              <span class="notification-time">30 minutos aproximadamente</span>
+                                          </div>
+                                      </div>
+                                  </li>
+                                  <li class="waves-effect waves-light">
+                                      <div class="media">
+                                          <img class="d-flex align-self-center img-radius" src="assets/images/avatar-3.jpg" alt="Generic placeholder image">
+                                          <div class="media-body">
+                                              <h5 class="notification-user">Julio Perez</h5>
+                                              <p class="notification-msg">Mi novia esta en embarazada</p>
+                                              <span class="notification-time">Hace una hora</span>
+                                          </div>
+                                      </div>
+                                  </li>
+                              </ul>
+                          </li>
+                          <li class="user-profile header-notification">
+                              <a href="#!" class="waves-effect waves-light">
+                                  <img src="assets/images/doctor.jpg" class="img-radius" alt="User-Profile-Image">
+                                  <span>Wilson Salas</span>
+                                  <i class="ti-angle-down"></i>
+                              </a>
+                              <ul class="show-notification profile-notification">
+                                  <li class="waves-effect waves-light">
+                                      <a href="#!">
+                                          <i class="ti-settings"></i> Configuracion
+                                      </a>
+                                  </li>
+                                  <li class="waves-effect waves-light">
+                                      <a href="">
+                                          <i class="ti-user"></i> Perfil
+                                      </a>
+                                  </li>
+                                
+                              </ul>
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+          </nav>
+
+          <div class="pcoded-main-container">
+              <div class="pcoded-wrapper">
+                  <nav class="pcoded-navbar">
+                      <div class="sidebar_toggle"><a href="#"><i class="icon-close icons"></i></a></div>
+                      <div class="pcoded-inner-navbar main-menu">
+                          <div class="">
+                              <div class="main-menu-header">
+                                  <img class="img-80 img-radius" src="assets/images/doctor.jpg" alt="User-Profile-Image">
+                                  <div class="user-details">
+                                      <span id="more-details">Wilson Salas<i class="fa fa-caret-down"></i></span>
+                                  </div>
+                              </div>
+        
+                              <div class="main-menu-content">
+                                  <ul>
+                                      <li class="more-details">
+                                          <a href="#!"><i class="ti-user"></i> Ver Perfil</a>
+                                          <a href="#!"><i class="ti-settings"></i>Configuracion</a>
+                                          <a href="login.html"><i class="ti-layout-sidebar-left"></i>Cerrar sesion</a>
+                                      </li>
+                                  </ul>
+                              </div>
+                          </div>
+                          <div class="p-15 p-b-0">
+                              <form class="form-material">
+                                  <div class="form-group form-primary">
+                                      <input type="text" name="footer-email" class="form-control" required="">
+                                      <span class="form-bar"></span>
+                                      <label class="float-label"><i class="fa fa-search m-r-10"></i>buscar</label>
+                                  </div>
+                              </form>
+                          </div>
+                          <ul class="pcoded-item pcoded-left-item">
+                              <li class="active">
+                                  <a href="index.html" class="waves-effect waves-dark">
+                                      <span class="pcoded-micon"><i class="ti-home"></i><b>D</b></span>
+                                      <span class="pcoded-mtext" data-i18n="nav.dash.main">Clinica Maria Reina</span>
+                                      <span class="pcoded-mcaret"></span>
+                                  </a>
+                              </li>
+                              <li class="pcoded-hasmenu">
+                                  <a href="javascript:void(0)" class="waves-effect waves-dark">
+                                      <span class="pcoded-micon"><i class="ti-layout-grid2-alt"></i></span>
+                                      <span class="pcoded-mtext"  data-i18n="nav.basic-components.main">Resumen</span>
+                                      <span class="pcoded-mcaret"></span>
+                                  </a>
+                                  <ul class="pcoded-submenu">
+                                      <li class=" ">
+                                          <a href="#!" class="waves-effect waves-dark">
+                                              <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                              <span class="pcoded-mtext" data-i18n="nav.basic-components.alert">Tablero</span>
+                                              <span class="pcoded-mcaret"></span>
+                                          </a>
+                                      </li>
+                                      <li class=" ">
+                                          <a href="#!" class="waves-effect waves-dark">
+                                              <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                              <span class="pcoded-mtext" data-i18n="nav.basic-components.breadcrumbs">Cita</span>
+                                              <span class="pcoded-mcaret"></span>
+                                          </a>
+                                      </li>
+                                      <li class=" ">
+                                          <a href="#!" class="waves-effect waves-dark">
+                                              <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                              <span class="pcoded-mtext" data-i18n="nav.basic-components.alert">Detalles del Paciente</span>
+                                              <span class="pcoded-mcaret"></span>
+                                          </a>
+                                      </li>
+                                      <li class=" ">
+                                          <a href="#!" class="waves-effect waves-dark">
+                                              <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                              <span class="pcoded-mtext" data-i18n="nav.basic-components.breadcrumbs">Linea de tiempo</span>
+                                              <span class="pcoded-mcaret"></span>
+                                          </a>
+                                      </li>
+                                      <li class=" ">
+                                          <a href="#!" class="waves-effect waves-dark">
+                                              <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                              <span class="pcoded-mtext" data-i18n="nav.basic-components.alert">Solicitudes</span>
+                                              <span class="pcoded-mcaret"></span>
+                                          </a>
+                                      </li>
+                                      <li class=" ">
+                                          <a href="#!" class="waves-effect waves-dark">
+                                              <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                              <span class="pcoded-mtext" data-i18n="nav.basic-components.breadcrumbs">olnine y Offline</span>
+                                              <span class="pcoded-mcaret"></span>
+                                          </a>
+                                      </li>
+                                      <li class=" ">
+                                          <a href="#!" class="waves-effect waves-dark">
+                                              <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                              <span class="pcoded-mtext" data-i18n="nav.basic-components.alert">Analisis</span>
+                                              <span class="pcoded-mcaret"></span>
+                                          </a>
+                                      </li>
+                                  </ul>
+                              </li>
+                          </ul>
+                          <ul class="pcoded-item pcoded-left-item">
+                              <li class="pcoded-hasmenu">
+                                  <a href="javascript:void(0)" class="waves-effect waves-dark">
+                                      <span class="pcoded-micon"><i class="ti-layout-grid2-alt"></i></span>
+                                      <span class="pcoded-mtext"  data-i18n="nav.basic-components.main">Personal</span>
+                                      <span class="pcoded-mcaret"></span>
+                                  </a>
+                                  <ul class="pcoded-submenu">
+                                      <li class=" ">
+                                          <a href="personalnuevo.html" class="waves-effect waves-dark">
+                                              <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                              <span class="pcoded-mtext" data-i18n="nav.basic-components.alert">Registrar Nuevo</span>
+                                              <span class="pcoded-mcaret"></span>
+                                          </a>
+                                      </li>
+                                      <li class=" ">
+                                          <a href="#!" class="waves-effect waves-dark">
+                                              <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                              <span class="pcoded-mtext" data-i18n="nav.basic-components.breadcrumbs">Medico</span>
+                                              <span class="pcoded-mcaret"></span>
+                                          </a>
+                                      </li>
+                                      <li class=" ">
+                                          <a href="#!" class="waves-effect waves-dark">
+                                              <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                              <span class="pcoded-mtext" data-i18n="nav.basic-components.breadcrumbs">Administrativo</span>
+                                              <span class="pcoded-mcaret"></span>
+                                          </a>
+                                      </li>
+                                  </ul>
+                              </li>
+        
+                          </ul>
+
+                          <ul class="pcoded-item pcoded-left-item">
+                              <li class="pcoded-hasmenu ">
+                                  <a href="" class="waves-effect waves-dark">
+                                      <span class="pcoded-micon"><i class="ti-direction-alt"></i><b></b></span>
+                                      <span class="pcoded-mtext" data-i18n="nav.menu-levels.main">Programar cita</span>
+                                      <span class="pcoded-mcaret"></span>
+                                  </a>
+                                  <ul class="pcoded-submenu">
+                                      <li class="">
+                                          <a href="nuevacita.html" class="">
+                                              <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                              <span class="pcoded-mtext" data-i18n="nav.menu-levels.menu-level-21">Nueva cita</span>
+                                              <span class="pcoded-mcaret"></span>
+                                          </a>
+                                      </li>
+                                      <li class="">
+                                          <a href="#!" class="">
+                                              <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                              <span class="pcoded-mtext" data-i18n="nav.menu-levels.menu-level-23">Detalles del paciente</span>
+                                              <span class="pcoded-mcaret"></span>
+                                          </a>
+                                      </li>
+
+                                      <li class="">
+                                        <a href="#!" class="">
+                                            <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                            <span class="pcoded-mtext" data-i18n="nav.menu-levels.menu-level-23">Solicitar Cita</span>
+                                            <span class="pcoded-mcaret"></span>
+                                        </a>
+                                    </li>
+
+                                    <li class="">
+                                        <a href="#!" class="">
+                                            <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                            <span class="pcoded-mtext" data-i18n="nav.menu-levels.menu-level-23">Paciente Reciente</span>
+                                            <span class="pcoded-mcaret"></span>
+                                        </a>
+                                    </li>
+                
+                                  </ul>
+                              </li>
+                          </ul>
+
+                          <ul class="pcoded-item pcoded-left-item">
+                            <li class="pcoded-hasmenu">
+                                <a href="javascript:void(0)" class="waves-effect waves-dark">
+                                    <span class="pcoded-micon"><i class="ti-layout-grid2-alt"></i></span>
+                                    <span class="pcoded-mtext"  data-i18n="nav.basic-components.main">Mis pacientes</span>
+                                    <span class="pcoded-mcaret"></span>
+                                </a>
+                                <ul class="pcoded-submenu">
+                                    <li class=" ">
+                                        <a href="paciente.html" class="waves-effect waves-dark">
+                                            <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                            <span class="pcoded-mtext" data-i18n="nav.basic-components.alert">Nuevo Paciente</span>
+                                            <span class="pcoded-mcaret"></span>
+                                        </a>
+                                    </li>
+                                    <li class=" ">
+                                        <a href="#!" class="waves-effect waves-dark">
+                                            <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                            <span class="pcoded-mtext" data-i18n="nav.basic-components.breadcrumbs">Historial de Pacientes</span>
+                                            <span class="pcoded-mcaret"></span>
+                                        </a>
+                                    </li>
+                                    <li class=" ">
+                                        <a href="#!" class="waves-effect waves-dark">
+                                            <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                            <span class="pcoded-mtext" data-i18n="nav.basic-components.breadcrumbs">Detalles de Pacientes</span>
+                                            <span class="pcoded-mcaret"></span>
+                                        </a>
+                                    </li>
+                                    <li class=" ">
+                                        <a href="recetanueva.html" class="waves-effect waves-dark">
+                                            <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                            <span class="pcoded-mtext" data-i18n="nav.basic-components.breadcrumbs">Receta Medica</span>
+                                            <span class="pcoded-mcaret"></span>
+                                        </a>
+                                    </li>
+                                    <li class=" ">
+                                        <a href="orden.html" class="waves-effect waves-dark">
+                                            <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                            <span class="pcoded-mtext" data-i18n="nav.basic-components.breadcrumbs">Orden Medica</span>
+                                            <span class="pcoded-mcaret"></span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul class="pcoded-item pcoded-left-item">
+                            <li class="pcoded-hasmenu">
+                                <a href="javascript:void(0)" class="waves-effect waves-dark">
+                                    <span class="pcoded-micon"><i class="ti-layout-grid2-alt"></i></span>
+                                    <span class="pcoded-mtext"  data-i18n="nav.basic-components.main">Cerrar Sesion</span>
+                                    <span class="pcoded-mcaret"></span>
+                                </a>
+                                <ul class="pcoded-submenu">
+                                    <li class=" ">
+                                        <a href="login.html" class="waves-effect waves-dark">
+                                            <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                            <span class="pcoded-mtext" data-i18n="nav.basic-components.alert">Inicio</span>
+                                            <span class="pcoded-mcaret"></span>
+                                        </a>
+                                    </li>
+                            </li>
+                        </ul>
+
+                      </div>
+                  </nav>
+                  <div class="pcoded-content">
+                      <!-- Page-header start -->
+                      <div class="page-header">
+                          <div class="page-block">
+                              <div class="row align-items-center">
+                                  <div class="col-md-8">
+                                      <div class="page-header-title">
+                                          <h3 class="m-b-10">Clinica Maria Reina</h3>
+                                      </div>
+                                  </div>
+                                  <div class="col-md-4">
+                                      <ul class="breadcrumb-title">
+                                          <li class="breadcrumb-item">
+                                              <a href="#"> <i class="fa fa-home"></i> </a>
+                                          </li>
+                                          <li class="breadcrumb-item"><a href="dashboard.html">Inicio</a>
+                                          </li>
+                                      </ul>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <!-- Page-header end -->
+                        <div class="pcoded-inner-content">
+                            <!-- Main-body start -->
+                            <div class="main-body">
+                                <div class="page-wrapper">
+                                    <!-- Page-body start -->
+                                    <div class="page-body">
+                                        <div class="row">
+                                            <!-- task, page, download counter  start -->
+                                            <div class="col-xl-3 col-md-6">
+                                                <div class="card">
+                                                    <div class="card-block">
+                                                        <div class="row align-items-center">
+                                                            <div class="col-8">
+                                                                <h4 class="text-c-purple">Citas Hoy</h4>
+                                                                <h6 class="text-muted m-b-0">Aproximadamente 25 citas</h6>
+                                                            </div>
+                                                            <div class="col-4 text-right">
+                                                                <i class="fa fa-bar-chart f-28"></i>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card-footer bg-c-purple">
+                                                        <div class="row align-items-center">
+                                                            <div class="col-9">
+                                                                <p class="text-white m-b-0">Dia Atareado</p>
+                                                            </div>
+                                                            <div class="col-3 text-right">
+                                                                <i class="fa fa-line-chart text-white f-16"></i>
+                                                            </div>
+                                                        </div>
+            
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-3 col-md-6">
+                                                <div class="card">
+                                                    <div class="card-block">
+                                                        <div class="row align-items-center">
+                                                            <div class="col-8">
+                                                                <h4 class="text-c-green">Recetas de Hoy</h4>
+                                                                <h6 class="text-muted m-b-0">+85 recetas</h6>
+                                                            </div>
+                                                            <div class="col-4 text-right">
+                                                                <i class="fa fa-file-text-o f-28"></i>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card-footer bg-c-green">
+                                                        <div class="row align-items-center">
+                                                            <div class="col-9">
+                                                                <p class="text-white m-b-0">Porcentaje Alto de Recetas</p>
+                                                            </div>
+                                                            <div class="col-3 text-right">
+                                                                <i class="fa fa-line-chart text-white f-16"></i>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-3 col-md-6">
+                                                <div class="card">
+                                                    <div class="card-block">
+                                                        <div class="row align-items-center">
+                                                            <div class="col-8">
+                                                                <h4 class="text-c-red">Pacientes Hoy</h4>
+                                                                <h6 class="text-muted m-b-0">25 Pacientes </h6>
+                                                            </div>
+                                                            <div class="col-4 text-right">
+                                                                <i class="fa fa-calendar-check-o f-28"></i>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card-footer bg-c-red">
+                                                        <div class="row align-items-center">
+                                                            <div class="col-9">
+                                                                <p class="text-white m-b-0">%</p>
+                                                            </div>
+                                                            <div class="col-3 text-right">
+                                                                <i class="fa fa-line-chart text-white f-16"></i>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-3 col-md-6">
+                                                <div class="card">
+                                                    <div class="card-block">
+                                                        <div class="row align-items-center">
+                                                            <div class="col-8">
+                                                                <h4 class="text-c-blue">Pacientes en linea</h4>
+                                                                <h6 class="text-muted m-b-0">+100</h6>
+                                                            </div>
+                                                            <div class="col-4 text-right">
+                                                                <i class="fa fa-hand-o-down f-28"></i>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card-footer bg-c-blue">
+                                                        <div class="row align-items-center">
+                                                            <div class="col-9">
+                                                                <p class="text-white m-b-0">% Alto</p>
+                                                            </div>
+                                                            <div class="col-3 text-right">
+                                                                <i class="fa fa-line-chart text-white f-16"></i>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- task, page, download counter  end -->
+    
+                                            <!--  sale analytics start -->
+                                            <div class="col-xl-8 col-md-12">
+                                                <div class="card">
+                                                    <div class="card-header">
+                                                        <h5>Analisis de Movimiento en los ultimos años</h5>
+                                                        <span class="text-muted"> A  incrementado la movilidad de la clinica en un 15% segun las estadisticas </span>
+                                                        <div class="card-header-right">
+                                                            <ul class="list-unstyled card-option">
+                                                                <li><i class="fa fa fa-wrench open-card-option"></i></li>
+                                                                <li><i class="fa fa-window-maximize full-card"></i></li>
+                                                                <li><i class="fa fa-minus minimize-card"></i></li>
+                                                                <li><i class="fa fa-refresh reload-card"></i></li>
+                                                                <li><i class="fa fa-trash close-card"></i></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card-block">
+                                                        <div id="sales-analytics" style="height: 400px;"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-4 col-md-12">
+                                                <div class="card">
+                                                    <div class="card-block">
+                                                        <div class="row">
+                                                            <div class="col">
+                                                                <h4>La Mejor Atencion Aqui</h4>
+                                                                <p class="link-secondary"><a href="#">Agenda Tu Cita Aqui</a></p>
+                                                            </div>
+                                                            <div class="col-auto">
+                                                                <label class="label label-success"></label>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-sm-8">
+                                                                <canvas id="this-month" style="height: 150px;"></canvas>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="card quater-card">
+                                                    <div class="card-block">
+                                                        <h6 class="text-muted m-b-15">Citas Completadas el dia de hoy</h6>
+                                                        <h4>20/25</h4>
+                                                        <p class="text-muted">orden de citas</p>
+                                                        <h5>20</h5>
+                                                        <p class="text-muted">Finalizadas<span class="f-right">80%</span></p>
+                                                        <div class="progress"><div class="progress-bar bg-c-blue" style="width: 80%"></div></div>
+                                                        <h5 class="m-t-15">5</h5>
+                                                        <p class="text-muted">Restantes<span class="f-right">20%</span></p>
+                                                        <div class="progress"><div class="progress-bar bg-c-green" style="width: 20%"></div></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!--  sale analytics end -->
+    
+                                            <!--  project and team member start -->
+                                            <div class="col-xl-8 col-md-12">
+                                                <div class="card table-card">
+                                                    <div class="card-header">
+                                                        <h5>Proximas Citas</h5>
+                                                        <div class="card-header-right">
+                                                            <ul class="list-unstyled card-option">
+                                                                <li><i class="fa fa fa-wrench open-card-option"></i></li>
+                                                                <li><i class="fa fa-window-maximize full-card"></i></li>
+                                                                <li><i class="fa fa-minus minimize-card"></i></li>
+                                                                <li><i class="fa fa-refresh reload-card"></i></li>
+                                                                <li><i class="fa fa-trash close-card"></i></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card-block">
+                                                        <div class="table-responsive">
+                                                            <table class="table table-hover">
+                                                                <thead>
+                                                                <tr>
+                                                                    <th>
+                                                                        <div class="chk-option">
+                                                                            <div class="checkbox-fade fade-in-primary">
+                                                                                <label class="check-task">
+                                                                                    <input type="checkbox" value="">
+                                                                                    <span class="cr">
+                                                                                            <i class="cr-icon fa fa-check txt-default"></i>
+                                                                                        </span>
+                                                                                </label>
+                                                                            </div>
+                                                                        </div>
+                                                                        Pacientes</th>
+                                                                    <th>Nombre</th>
+                                                                    <th>Dia de la Cita</th>
+                                                                    <th class="text-right">Prioridad</th>
+                                                                </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                <tr>
+                                                                    <td>
+                                                                        <div class="chk-option">
+                                                                            <div class="checkbox-fade fade-in-primary">
+                                                                                <label class="check-task">
+                                                                                    <input type="checkbox" value="">
+                                                                                    <span class="cr">
+                                                                                                <i class="cr-icon fa fa-check txt-default"></i>
+                                                                                            </span>
+                                                                                </label>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="d-inline-block align-middle">
+                                                                            <img src="assets/images/albeiro.jpeg" alt="user image" class="img-radius img-40 align-top m-r-15">
+                                                                            <div class="d-inline-block">
+                                                                                <h6>Albeiro Padilla</h6>
+                                                                                <p class="text-muted m-b-0">Cirugia</p>
+                                                                            </div>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td>Able Pro</td>
+                                                                    <td>Jun, 26</td>
+                                                                    <td class="text-right"><label class="label label-danger">Low</label></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>
+                                                                        <div class="chk-option">
+                                                                            <div class="checkbox-fade fade-in-primary">
+                                                                                <label class="check-task">
+                                                                                    <input type="checkbox" value="">
+                                                                                    <span class="cr">
+                                                                                                <i class="cr-icon fa fa-check txt-default"></i>
+                                                                                            </span>
+                                                                                </label>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="d-inline-block align-middle">
+                                                                            <img src="assets/images/avatar-5.jpg" alt="user image" class="img-radius img-40 align-top m-r-15">
+                                                                            <div class="d-inline-block">
+                                                                                <h6>Vanessa Mendoza</h6>
+                                                                                <p class="text-muted m-b-0">Retiro de yeso</p>
+                                                                            </div>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td>Mashable</td>
+                                                                    <td>March, 31</td>
+                                                                    <td class="text-right"><label class="label label-primary">high</label></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>
+                                                                        <div class="chk-option">
+                                                                            <div class="checkbox-fade fade-in-primary">
+                                                                                <label class="check-task">
+                                                                                    <input type="checkbox" value="">
+                                                                                    <span class="cr">
+                                                                                                <i class="cr-icon fa fa-check txt-default"></i>
+                                                                                            </span>
+                                                                                </label>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="d-inline-block align-middle">
+                                                                            <img src="assets/images/carlos.jpeg" alt="user image" class="img-radius img-40 align-top m-r-15">
+                                                                            <div class="d-inline-block">
+                                                                                <h6>Carlos Romero</h6>
+                                                                                <p class="text-muted m-b-0">Terapia</p>
+                                                                            </div>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td>Flatable</td>
+                                                                    <td>Aug, 02</td>
+                                                                    <td class="text-right"><label class="label label-success">medium</label></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>
+                                                                        <div class="chk-option">
+                                                                            <div class="checkbox-fade fade-in-primary">
+                                                                                <label class="check-task">
+                                                                                    <input type="checkbox" value="">
+                                                                                    <span class="cr">
+                                                                                                <i class="cr-icon fa fa-check txt-default"></i>
+                                                                                            </span>
+                                                                                </label>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="d-inline-block align-middle">
+                                                                            <img src="assets/images/julio.jpg" alt="user image" class="img-radius img-40 align-top m-r-15">
+                                                                            <div class="d-inline-block">
+                                                                                <h6>Julio Perez</h6>
+                                                                                <p class="text-muted m-b-0">Control</p>
+                                                                            </div>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td>Guruable</td>
+                                                                    <td>Sep, 22</td>
+                                                                    <td class="text-right"><label class="label label-primary">high</label></td>
+                                                                </tr>
+                                                                </tbody>
+                                                            </table>
+                                                            <div class="text-right m-r-20">
+                                                                <a href="#!" class=" b-b-primary text-primary">Ver todas las citas</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-4 col-md-12">
+                                                <div class="card ">
+                                                    <div class="card-header">
+                                                        <h5>Doctores de la Clinica</h5>
+                                                        <div class="card-header-right">
+                                                            <ul class="list-unstyled card-option">
+                                                                <li><i class="fa fa fa-wrench open-card-option"></i></li>
+                                                                <li><i class="fa fa-window-maximize full-card"></i></li>
+                                                                <li><i class="fa fa-minus minimize-card"></i></li>
+                                                                <li><i class="fa fa-refresh reload-card"></i></li>
+                                                                <li><i class="fa fa-trash close-card"></i></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card-block">
+                                                        <div class="align-middle m-b-30">
+                                                            <img src="assets/images/avatar-2.jpg" alt="user image" class="img-radius img-40 align-top m-r-15">
+                                                            <div class="d-inline-block">
+                                                                <h6>Marta Gomez</h6>
+                                                                <p class="text-muted m-b-0">Medico General</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="align-middle m-b-30">
+                                                            <img src="assets/images/avatar-1.jpg" alt="user image" class="img-radius img-40 align-top m-r-15">
+                                                            <div class="d-inline-block">
+                                                                <h6>Maria Padilla</h6>
+                                                                <p class="text-muted m-b-0">Especialista</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="align-middle m-b-30">
+                                                            <img src="assets/images/julio.jpg" alt="user image" class="img-radius img-40 align-top m-r-15">
+                                                            <div class="d-inline-block">
+                                                                <h6>Juan Perez</h6>
+                                                                <p class="text-muted m-b-0">Neurologo</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="align-middle m-b-30">
+                                                            <img src="assets/images/avatar-4.jpg" alt="user image" class="img-radius img-40 align-top m-r-15">
+                                                            <div class="d-inline-block">
+                                                                <h6>juana Romero</h6>
+                                                                <p class="text-muted m-b-0">Maxilo Facial</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="align-middle m-b-10">
+                                                            <img src="assets/images/al" alt="user image" class="img-radius img-40 align-top m-r-15">
+                                                            <div class="d-inline-block">
+                                                                <h6>Jesus Parra</h6>
+                                                                <p class="text-muted m-b-0">Terapeuta</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="text-center">
+                                                            <a href="#!" class="b-b-primary text-primary">Ver mas Doctores</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!--  project and team member end -->
+                                        </div>
+                                    </div>
+                                    <!-- Page-body end -->
+                                </div>
+                                <div id="styleSelector"> </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Warning Section Starts -->
+    <!-- Warning Section Ends -->
+    
+    <!-- Required Jquery -->
+    <script type="text/javascript" src="assets/js/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery-ui/jquery-ui.min.js "></script>
+    <script type="text/javascript" src="assets/js/popper.js/popper.min.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap/js/bootstrap.min.js "></script>
+    <script type="text/javascript" src="assets/pages/widget/excanvas.js "></script>
+    <!-- waves js -->
+    <script src="assets/pages/waves/js/waves.min.js"></script>
+    <!-- jquery slimscroll js -->
+    <script type="text/javascript" src="assets/js/jquery-slimscroll/jquery.slimscroll.js "></script>
+    <!-- modernizr js -->
+    <script type="text/javascript" src="assets/js/modernizr/modernizr.js "></script>
+    <!-- slimscroll js -->
+    <script type="text/javascript" src="assets/js/SmoothScroll.js"></script>
+    <script src="assets/js/jquery.mCustomScrollbar.concat.min.js "></script>
+    <!-- Chart js -->
+    <script type="text/javascript" src="assets/js/chart.js/Chart.js"></script>
+    <!-- amchart js -->
+    <script src="https://www.amcharts.com/lib/3/amcharts.js"></script>
+    <script src="assets/pages/widget/amchart/gauge.js"></script>
+    <script src="assets/pages/widget/amchart/serial.js"></script>
+    <script src="assets/pages/widget/amchart/light.js"></script>
+    <script src="assets/pages/widget/amchart/pie.min.js"></script>
+    <script src="https://www.amcharts.com/lib/3/plugins/export/export.min.js"></script>
+    <!-- menu js -->
+    <script src="assets/js/pcoded.min.js"></script>
+    <script src="assets/js/vertical-layout.min.js "></script>
+    <!-- custom js -->
+    <script type="" src="assets/pages/dashboard/custom-dashboard.js"></script>
+    <script type="" src="assets/js/script.js "></script>
+</body>
+
+</html>
